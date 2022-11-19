@@ -1,0 +1,7 @@
+version: 1
+packages:
+  - path: "transfer"
+    name: "transfer"
+    engine: "mysql"
+    schema: "sqlc_transfer.sql"
+    queries: "query.sql"

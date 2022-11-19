@@ -1,0 +1,6 @@
+version: 1
+packages:
+mysql:
+  driver_name: "mysql"
+  data_source_name: "root:123456@tcp(127.0.0.1:33306)/tron?charset=utf8mb4&parseTime=true&loc=Local"
+

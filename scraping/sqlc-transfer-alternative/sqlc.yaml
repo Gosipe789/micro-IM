@@ -1,0 +1,7 @@
+version: 1
+packages:
+  - path: "transfer_alternative"
+    name: "transfer_alternative"
+    engine: "mysql"
+    schema: "sqlc_transfer_alternative.sql"
+    queries: "query.sql"
